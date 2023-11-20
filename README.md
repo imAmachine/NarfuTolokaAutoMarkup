@@ -1,4 +1,4 @@
-# NarfuTolokaAutoMarkup (Авто-разметчик для NarfuToloka на основе ChatGPT)
+# Авто-разметчик для NarfuToloka на основе ChatGPT
 **Основные библиотеки**
 * GoogleTranslator
 * BeautifulSoap4
