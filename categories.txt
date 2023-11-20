@@ -1,0 +1,14 @@
+Healthcare
+Housing_and_Public_Utilities
+Education
+Infrastructure
+Culture
+Environmental_Conditions
+Social_Security
+Politics
+Safety
+Availability_of_Goods_and_Services
+Official_Statements
+Tourism
+Facts
+Another

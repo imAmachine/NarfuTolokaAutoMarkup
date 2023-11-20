@@ -1,0 +1,49 @@
+Markup the data; the input data consists of "Comment to the post" or "post" from the Internet on the topic of "assessment of various spheres of life in the city or region."
+Sometimes Post and Comment can be confused, try to determine where the user's comment is and where the post is on the Internet. If a comment or post does not relate to the subject of landscaping and evaluation of the city, mark it as garbage
+
+The category "Garbage"
+Garbage (irrelevant message) is a message that does not belong to the thematic categories under study and which contains the following text.
+Examples of irrelevant (garbage) messages:
+● 🐷 Clean up after yourself! (Garbage, since this is a call for cleaning, unrelated to the topic)
+● Mushroom pickers of Pomerania do not give up! (Garbage, as it is not related to the thematic categories under study)
+● 🙃 Who is not sleeping? Let's chat 🤗 (Garbage, since this communication is off topic)
+● Four beggars 😋 (Garbage, since it is not clear what it is about)
+● Good morning, friends (Garbage, since a simple greeting does not relate to the topic)
+● I watched from the balcony (Garbage, since it is not related to the topic)
+● Good night neighbors 🤝 🤗 (Garbage, since a simple good night wish does not apply to the topic)
+● Fireworks in Arkhangelsk 🎉 (Garbage, since it's just information about the event without context)
+● 🦊 Chanterelles love cookies) (Garbage, since an unrelated fact)
+● And your children also make angels on snow? 😉 (Garbage, since it does not relate to the topic under study)
+● Forest huntress, caught a squirrel (Garbage, as an unrelated episode)
+Hello everyone, what's the name of the tall guy with red hair? (Garbage, since this question does not relate to the topic)
+● I will buy phantom jaws, I will unsubscribe by Likes or comments! Anon (Garbage, since this purchase is not related to the topic)
+● Does anyone sell an ironing board? (Garbage, since this purchase is not related to the topic)
+● in a rich spiritually and morally moral country, EVERYTHING is sold and EVERYTHING is bought (Garbage, since the statement does not relate to the topic)
+● you are being ironic in vain.They are polished and sold again.(off topic)
+● zareals market(off topic)
+● & How much do you sell your own for?
+Nobody pulled your tongue.
+You have everything for sale)))(off topic)
+● [id494685661|Andrey], do you also cut crosses in cemeteries?(off topic)
+Hint: if there are difficulties in marking up "garbage" and "not garbage", try to determine which thematic category this message can be attributed to. If the message clearly does not fit anywhere, then with a high degree of probability it is a "garbage" message.
+There are "borderline" messages that are difficult to attribute explicitly to "garbage" or "not garbage", so it is better to mark the cell of the message as "garbage".
+For the post:
+The "Garbage" field is filled in only if the message does not belong to any of the categories of relevant messages.
+If the text is not "garbage", its category and tonality are NECESSARILY determined.
+For a comment:
+If the text of the comment is "garbage", only the tonality is determined for it. If the tonality is difficult to determine, "neutral" is selected.
+If the text of the comment is not "garbage", the category and tonality are determined for it.
+Evaluate the "###COMMENT" field taking into account the context from the "###POST".
+Comments similar to good morning and have a good day that are not related to the topic of markup, refer to garbage.
+
+Item 1: Is the post GARBAGE? Options: ("True" or "False")
+Item 2: What categories would you classify this text into?
+Options:Healthcare/Housing_and_Public_Utilities/Education/Infrastructure/Culture/Environmental_Conditions/Social_Security/Politics/Safety/Availability_of_Goods_and_Services/Official_Statements/Tourism/Facts/Another
+Item 3: What emotional coloring does the text have?
+Options:Positive/Negative/Neutral(if the emotional color is completely incomprehensible)
+
+Response:
+Use strictly this JSON template: {"Garbage": "Option from Item 1", "selected_field": "Option from Item 2", "selected_emotion": "Option from Item 3"}
+Example JSON template for garbase: {"Garbage": "True", "selected_field": "first option from item 2", "selected_emotion": "Option from Item 3"}
+
+Content:
