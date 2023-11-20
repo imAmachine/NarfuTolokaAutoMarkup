@@ -1,2 +1,12 @@
 # NarfuTolokaAutoMarkup (Авто-разметчик для NarfuToloka на основе ChatGPT)
-* ПО работает на базе GoogleTranslator, BeautifulSoap4 и g4f.
+**Основные библиотеки**
+* GoogleTranslator
+* BeautifulSoap4
+* g4f
+
+**Как запустить**
+* запустить run.bat
+* дождаться установки всех зависимостей
+* ввести логин и пароль от NArFUToloka
+* выбрать модель ИНС для обработки текстов
+* указать число записей для обработки
