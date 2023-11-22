@@ -1,5 +1,6 @@
 # Авто-разметчик для NarfuToloka на основе ChatGPT
 **Основные библиотеки**
+* googletrans==3.1.0a0
 * BeautifulSoap4
 * g4f
 
